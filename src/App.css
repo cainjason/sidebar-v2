@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: lightslategray;
+  height: 30px;
+}
+
+.sidebar {
+  background: lightslategray;
+  height: 730px;
+  width: 240px;
+  transition: all 3s;
+}
+
+.sidenav.active {
+  left: 0%;
+}
+
+.footer {
+  bottom: 0;
+  background: lightslategray;
+  width: 100%;
+  height: 30px;
+}
